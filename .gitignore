@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+src/ConfigDumpInfo.xml
+*.log
+.ruff_cache/

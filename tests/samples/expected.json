@@ -1,0 +1,107 @@
+{
+  "upd_01.pdf": {
+    "number": "1542",
+    "date": "2026-10-14",
+    "seller_inn": "7701234560",
+    "total": 13420.0,
+    "items": [
+      {
+        "name": "Кабель ВВГнг 3х2,5 (бухта 100 м)",
+        "quantity": 100,
+        "price": 85.0,
+        "amount": 8500.0
+      },
+      {
+        "name": "Автоматический выключатель 16А",
+        "quantity": 12,
+        "price": 410.0,
+        "amount": 4920.0
+      }
+    ],
+    "extraction": "pdf-text"
+  },
+  "invoice_02.pdf": {
+    "number": "СЧ-0087",
+    "date": "2026-10-03",
+    "seller_inn": "5001987653",
+    "total": 6975.0,
+    "items": [
+      {
+        "name": "Розетка накладная белая",
+        "quantity": 20,
+        "price": 120.0,
+        "amount": 2400.0
+      },
+      {
+        "name": "Кабель-канал 25х16",
+        "quantity": 50,
+        "price": 64.5,
+        "amount": 3225.0
+      },
+      {
+        "name": "Изолента ПВХ синяя 19 мм",
+        "quantity": 30,
+        "price": 45.0,
+        "amount": 1350.0
+      }
+    ],
+    "extraction": "pdf-text"
+  },
+  "upd_03_bad_inn.pdf": {
+    "number": "77",
+    "date": "2026-09-30",
+    "seller_inn": "7810555558",
+    "total": 3800.0,
+    "items": [
+      {
+        "name": "Лампа светодиодная 10Вт E27",
+        "quantity": 40,
+        "price": 95.0,
+        "amount": 3800.0
+      }
+    ],
+    "extraction": "pdf-text"
+  },
+  "waybill_04_ip.pdf": {
+    "number": "215",
+    "date": "2026-10-10",
+    "seller_inn": "662301234547",
+    "total": 3290.0,
+    "items": [
+      {
+        "name": "Автоматический выключатель 16А",
+        "quantity": 6,
+        "price": 395.0,
+        "amount": 2370.0
+      },
+      {
+        "name": "Лампа светодиодная 10Вт E27",
+        "quantity": 10,
+        "price": 92.0,
+        "amount": 920.0
+      }
+    ],
+    "extraction": "pdf-text"
+  },
+  "upd_05_scan.pdf": {
+    "number": "3310",
+    "date": "2026-10-16",
+    "seller_inn": "7701234560",
+    "total": 17980.0,
+    "items": [
+      {
+        "name": "Розетка накладная белая",
+        "quantity": 10,
+        "price": 118.0,
+        "amount": 1180.0
+      },
+      {
+        "name": "Кабель ВВГнг 3х2,5 (бухта 100 м)",
+        "quantity": 200,
+        "price": 84.0,
+        "amount": 16800.0
+      }
+    ],
+    "extraction": "ocr"
+  }
+}
