@@ -51,6 +51,9 @@ jobs:
           ruff check .
           ruff format --check .
 
+      - name: Заглушка API Диадока импортируется
+        run: python -c "import sys; sys.path.insert(0, 'tests'); import diadoc_mock"
+
       # Тесты с 1С и моделью (-m llm и без меток) требуют платформу и запускаются локально
       - name: Тесты сервиса
         run: python -m pytest -m service -v

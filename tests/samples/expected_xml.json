@@ -1,0 +1,53 @@
+{
+  "upd_06_edo.xml": {
+    "number": "1601",
+    "date": "2026-10-18",
+    "seller_inn": "7701234560",
+    "total": 7070.0,
+    "items": [
+      {
+        "name": "Кабель ВВГнг 3х2,5 (бухта 100 м)",
+        "code": "RD-CABLE",
+        "quantity": 50,
+        "price": 85.0,
+        "amount": 4250.0
+      },
+      {
+        "name": "Выключатель автоматический ВА47-29 1P 16А",
+        "code": "RD-QF16",
+        "quantity": 4,
+        "price": 410.0,
+        "amount": 1640.0
+      },
+      {
+        "name": "Розетка накладная белая",
+        "code": "",
+        "quantity": 10,
+        "price": 118.0,
+        "amount": 1180.0
+      }
+    ]
+  },
+  "upd_07_edo_ip_501.xml": {
+    "number": "44",
+    "date": "2026-10-19",
+    "seller_inn": "662301234547",
+    "total": 1665.0,
+    "items": [
+      {
+        "name": "Кабель-канал 25х16",
+        "code": "",
+        "quantity": 3,
+        "price": 333.33,
+        "amount": 1000.0
+      },
+      {
+        "name": "Лампа светодиодная 10Вт E27",
+        "code": "RD-LAMP",
+        "quantity": 7,
+        "price": 95.0,
+        "amount": 665.0
+      }
+    ]
+  }
+}

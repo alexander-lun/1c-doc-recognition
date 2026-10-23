@@ -44,7 +44,7 @@
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>рд_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_5_1</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_24</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ОсновнаяРоль</xr:Item>
@@ -62,14 +62,22 @@
 		<ChildObjects>
 			<Role>ОсновнаяРоль</Role>
 			<CommonModule>рд_РаспознаваниеДокументов</CommonModule>
+			<CommonModule>рд_УПДФорматаФНС</CommonModule>
+			<CommonModule>рд_Диадок</CommonModule>
 			<CommonModule>НастройкиОбменаВызовСервера</CommonModule>
 			<HTTPService>рд_РаспознаваниеДокументов</HTTPService>
+			<ScheduledJob>рд_ЗагрузкаИзДиадок</ScheduledJob>
 			<Constant>рд_АдресСервисаИзвлеченияТекста</Constant>
 			<Constant>рд_АдресСервисаLLM</Constant>
 			<Constant>рд_МодельLLM</Constant>
+			<Constant>рд_АдресДиадок</Constant>
+			<Constant>рд_ТокенДиадок</Constant>
+			<Constant>рд_ЯщикДиадок</Constant>
+			<Constant>рд_ДиадокЗагруженоПо</Constant>
 			<Catalog>рд_Контрагенты</Catalog>
 			<Document>ПоступлениеТоваров</Document>
 			<InformationRegister>рд_ЖурналРаспознавания</InformationRegister>
+			<InformationRegister>рд_ДокументыЭДО</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

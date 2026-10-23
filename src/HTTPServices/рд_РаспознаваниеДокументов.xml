@@ -53,6 +53,25 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="8bd0c022-b835-4efc-b711-48e46239b6f5">
+				<Properties>
+					<Name>ЗагрузкаИзДиадок</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/diadoc/pull</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e3e5184a-bb0c-43fa-818c-f103c18377ef">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ЗагрузкаИзДиадокPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

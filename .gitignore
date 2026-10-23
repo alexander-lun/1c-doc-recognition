@@ -4,3 +4,4 @@ __pycache__/
 src/ConfigDumpInfo.xml
 *.log
 .ruff_cache/
+build/
